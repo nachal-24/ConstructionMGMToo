@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Construction MGMT</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="action_change_password">Change Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="country_prompt">This field is required</string>
+
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+    <string name="sign_out">Sign Out</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <array name="task_arrays">
+        <item>New Task</item>
+        <item>New Stage</item>
+        <item>New Project</item>
+    </array>
+    <array name="task_status_arrays">
+        <item>Not Started Yet</item>
+        <item>Ongoing</item>
+        <item>Work Done</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calendar_view">CalendarViewActivity</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_password_change">PasswordChange</string>
+</resources>

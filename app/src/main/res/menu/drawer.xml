@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hmkcode.mongoz.MainActivity" >
+
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/navigation_item_1"
+
+            android:title="Tasks"/>
+        <item
+            android:id="@+id/navigation_item_2"
+
+            android:title="Progress"/>
+
+        <item
+            android:id="@+id/navigation_item_3"
+
+            android:title="Resources"/>
+        <!--android:icon="@drawable/ic_action_location_found_dark"-->
+    </group>
+
+</menu>

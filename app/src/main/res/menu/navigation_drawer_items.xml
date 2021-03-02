@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/addTask"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Add Task" />
+    <item
+        android:id="@+id/EOQ"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Economic Order Quantity" />
+
+    <item
+        android:id="@+id/NonInstantEOQ"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Noninstantaneous EOQ" />
+
+    <item
+        android:id="@+id/ordersList"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Orders List" />
+
+    <item
+        android:id="@+id/TaskList"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Tasks List" />
+
+
+
+
+    <!--iitem
+        android:id="@+id/calendar_view"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Order Calendar" />
+    <tem
+        android:id="@+id/sign_out"
+        android:checked="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Sign Out" />-->
+
+</group>
+
+</menu>

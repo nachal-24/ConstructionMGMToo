@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:layout_marginLeft="50dp">
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/flag"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="29dp"
+        android:layout_toRightOf="@+id/flag"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/flag"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#E8EAF6"
+    android:weightSum="10"
+    >
+    <View
+        android:layout_width="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="match_parent"
+        android:background="#c0c0c0"
+        android:id="@+id/view_status"
+        />
+<RelativeLayout
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_vertical"
+android:padding="12dp"
+    >
+
+<LinearLayout
+    android:id="@+id/rd_wrapper"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="50dp">
+
+    <TextView
+        android:id="@+id/task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Header"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/task_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Sub Header"
+        android:textSize="14dp"
+        android:maxLines="1" />
+
+
+</LinearLayout>
+</RelativeLayout>
+    </LinearLayout>
