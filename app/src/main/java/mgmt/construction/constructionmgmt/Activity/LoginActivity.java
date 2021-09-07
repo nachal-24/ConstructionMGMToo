@@ -24,7 +24,7 @@ public class LoginActivity extends RootActivity {
     private NavigationView navigationView;
     private ProgressDialog pDialog;
     // single product url
-    private static final String url_product_detials = "http://127.0.0.1/android_connect/get_password.php";
+    private static final String url_product_detials = "http://alamaari.com/construction/get_password.php";
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_USERLOGIN = "userlogin";

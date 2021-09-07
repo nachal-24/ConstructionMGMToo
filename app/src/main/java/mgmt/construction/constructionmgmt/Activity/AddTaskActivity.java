@@ -88,7 +88,7 @@ EditText taskName;
     String sTotCost="";
     LinearLayout form;
     // single product url
-    private static final String url_product_detials = "http://127.0.0.1:8080/android_connect/get_password.php";
+    private static final String url_product_detials = "http://alamaari.com/construction/get_password.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -195,7 +195,7 @@ EditText taskName;
                 boolean fieldCheck=false;
                 String tag_json_obj = "json_obj_req";
 
-                String url = "http://ivapapps.16mb.com/insert_task.php";
+                String url = "http://alamaari.com/construction/insert_task.php";
                 Map<String, String> params;
 
                 if (tTaskName != null && tTaskName.compareToIgnoreCase("") != 0

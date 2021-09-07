@@ -55,7 +55,7 @@ public class ExpTaskListResultFragment extends Fragment {
     private static final String ARG_PARAM3 = "param3";
     private static final String ARG_PARAM4 = "param4";
     ProgressDialog PD;
-    String url = "http://ivapapps.16mb.com/task_list_expand.php";
+    String url = "http://alamaari.com/construction/task_list_expand.php";
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -149,7 +149,7 @@ public class ExpTaskListResultFragment extends Fragment {
         //Toast.makeText(getContext(),sk.getProgress()+" selected",Toast.LENGTH_LONG).show();
 
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/update_task.php";
+        String url = "http://alamaari.com/construction/update_task.php";
         Map<String, String> params;
 
         int statuspercent=sk.getProgress();
@@ -251,7 +251,7 @@ public class ExpTaskListResultFragment extends Fragment {
     public void insertNonInstEOQ(String pid)
     {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/select_task_detail.php";
+        String url = "http://alamaari.com/construction/select_task_detail.php";
         Map<String, String> params;
 
 
@@ -352,7 +352,7 @@ public class ExpTaskListResultFragment extends Fragment {
     }
     private void makejsonobjreq(String pid) {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/select_task_detail.php";
+        String url = "http://alamaari.com/construction/select_task_detail.php";
         PD = new ProgressDialog(getActivity());
         PD.setMessage("Loading...");
         PD.show();

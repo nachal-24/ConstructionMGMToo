@@ -184,7 +184,7 @@ private void taskButtonClickListener()
     public void insertNonInstEOQ()
     {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/task_data_barchart.php";
+        String url = "http://alamaari.com/construction/task_data_barchart.php";
 
         entries = new ArrayList<BarEntry>();
         taskList=new ArrayList<String>();

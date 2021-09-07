@@ -99,7 +99,7 @@ public class LoginFragment extends Fragment implements LoaderManager.LoaderCallb
     // Progress Dialog
     private ProgressDialog pDialog;
     // single product url
-    private static final String url_product_detials = "http://ivapapps.16mb.com/get_password.php";
+    private static final String url_product_detials = "http://alamaari.com/construction/get_password.php";
 
 
     @Override
@@ -519,7 +519,7 @@ public class LoginFragment extends Fragment implements LoaderManager.LoaderCallb
 
             private ProgressDialog pDialog;
 
-            private static final String LOGIN_URL = "http://ivapapps.16mb.com/get_new_password.php";
+            private static final String LOGIN_URL = "http://alamaari.com/construction/get_new_password.php";
             //private static final String LOGIN_URL = "http://10.0.2.2/get_new_password.php";
 
             private static final String TAG_SUCCESS = "success";

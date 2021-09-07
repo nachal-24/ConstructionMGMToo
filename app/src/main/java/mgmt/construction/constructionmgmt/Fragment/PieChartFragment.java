@@ -128,7 +128,7 @@ public class PieChartFragment extends BaseChartFragment {
     public void insertNonInstEOQ()
     {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/inv_cost_piechart.php";
+        String url = "http://alamaari.com/construction/inv_cost_piechart.php";
 
         entries1 = new ArrayList<Entry>();
         xVals = new ArrayList<String>();

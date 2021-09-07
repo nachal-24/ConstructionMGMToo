@@ -162,7 +162,7 @@ public class OrdersListFragment extends Fragment {
     public void getEOQ()
     {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/orders_list_expand.php";
+        String url = "http://alamaari.com/construction/orders_list_expand.php";
 
         orderListItems=new ArrayList<OrderListItem>();
         Log.v("STEPBYSTEP", "EOQ");

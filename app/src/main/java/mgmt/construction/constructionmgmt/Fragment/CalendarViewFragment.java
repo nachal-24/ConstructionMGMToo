@@ -234,7 +234,7 @@ public class CalendarViewFragment extends BaseChartFragment {
     {
         String tag_json_obj = "json_obj_req";
         Log.v("VOLLEY", month + " " + year);
-        String url = "http://ivapapps.16mb.com/order_calendar.php";
+        String url = "http://alamaari.com/construction/order_calendar.php";
         Map<String, String> params =new HashMap<String,String>();
         params.put("month",String.valueOf(month));
         params.put("year",String.valueOf(year));

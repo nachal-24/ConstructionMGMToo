@@ -204,7 +204,7 @@ String sStartDate;
     public void insertNonInstEOQ()
     {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/task_data_linechart.php";
+        String url = "http://alamaari.com/construction/task_data_linechart.php";
 
         entries = new ArrayList<Entry>();
         taskList=new ArrayList<String>();

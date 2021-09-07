@@ -57,7 +57,7 @@ public class EOQResultFragment extends Fragment {
     // The request code must be 0 or greater.
     private static final int PLUS_ONE_REQUEST_CODE = 0;
     // The URL to +1.  Must be a valid URL.
-    private final String PLUS_ONE_URL = "http://developer.android.com";
+    private final String PLUS_ONE_URL = "http://alamaari.com/construction";
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -191,7 +191,7 @@ public class EOQResultFragment extends Fragment {
 public void insertEOQ()
 {
     String tag_json_obj = "json_obj_req";
-    String url = "http://ivapapps.16mb.com/insert_eoq.php";
+    String url = "http://alamaari.com/construction/insert_eoq.php";
     Map<String, String> params;
 
 

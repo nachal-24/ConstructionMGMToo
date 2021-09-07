@@ -13,12 +13,12 @@
         android:name=".Classes.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="BRICKS AND BLOCKS"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".Activity.LoginActivity"
-            android:label="@string/app_name">
+            android:label="BRICKS AND BLOCKS">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

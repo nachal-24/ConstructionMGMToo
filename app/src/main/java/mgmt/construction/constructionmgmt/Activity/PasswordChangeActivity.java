@@ -93,7 +93,7 @@ public class PasswordChangeActivity extends RootActivity {
         email=user.getFirstName();
 Log.v("UPDATEEMAIL",email);
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/update_password.php";
+        String url = "http://alamaari.com/construction/update_password.php";
         Map<String, String> params;
 
         pDialog = new ProgressDialog(this);

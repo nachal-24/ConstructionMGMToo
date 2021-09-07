@@ -184,7 +184,7 @@ public class CalendarViewActivity extends RootActivity  {
         sData="";
         htmlData="<html><body>";
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/order_calendar_testing.php";
+        String url = "http://alamaari.com/construction/order_calendar_testing.php";
         Map<String, String> params;
 
         pDialog = new ProgressDialog(CalendarViewActivity.this);

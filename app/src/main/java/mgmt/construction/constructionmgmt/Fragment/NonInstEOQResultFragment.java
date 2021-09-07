@@ -187,7 +187,7 @@ public class NonInstEOQResultFragment extends Fragment {
     public void insertNonInstEOQ()
     {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/insert_noninst_eoq.php";
+        String url = "http://alamaari.com/construction/insert_noninst_eoq.php";
         Map<String, String> params;
 
 

@@ -186,7 +186,7 @@ public class OrdersListResultFragment extends Fragment {
         //Toast.makeText(getContext(),sk.getProgress()+" selected",Toast.LENGTH_LONG).show();
 
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/update_order.php";
+        String url = "http://alamaari.com/construction/update_order.php";
         Map<String, String> params;
 
         pDialog = new ProgressDialog(getActivity());
@@ -263,7 +263,7 @@ public class OrdersListResultFragment extends Fragment {
     public void insertNonInstEOQ(String pid)
     {
         String tag_json_obj = "json_obj_req";
-        String url = "http://ivapapps.16mb.com/select_order_detail.php";
+        String url = "http://alamaari.com/construction/select_order_detail.php";
         Map<String, String> params;
 
 

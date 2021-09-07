@@ -53,7 +53,7 @@ public class ExpTaskListFragment extends Fragment implements ExpandableListView.
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    String url = "http://ivapapps.16mb.com/task_list_expand.php";
+    String url = "http://alamaari.com/construction/task_list_expand.php";
     ProgressDialog PD;
     TextView tProjectName;
     private ExpandListAdapter ExpAdapter;
